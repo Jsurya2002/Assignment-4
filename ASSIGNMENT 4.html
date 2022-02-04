@@ -1,0 +1,107 @@
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-5">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toddle Form - INDIAN EVENT PLANNER</title>
+    <style>
+        body {
+            background-color: rgb(249, 214, 215);
+        }
+
+        .box {
+            border: 1px solid green;
+            padding: 16px;
+            margin-top: 5%;
+            width: 90%;
+            margin-left: 5%;
+        }
+       
+        header {
+            border: 4px solid green;
+            border-top: 8px solid rgb(79, 67, 9);
+            border-left: 5px solid violet;
+            padding: 18px;
+            margin-top: 5%;
+            width: 90%;
+            margin-left: 5%;
+        }
+        .submit,.reset
+        {
+            margin-left:18%;
+            width:15%;
+            border-radius: 19px;
+        }
+      .submit:hover,.reset:hover
+      {
+          background-color: black;
+          color:white;
+      }
+
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <h1> Registration and Planner</h1>
+        <p>INDIAN EVENT PLANNER</p>
+        <P>Address :DELHI </P>
+    </header>
+    <form action="">
+        <div class="box">
+            <p>Name:</p>
+            <input type="text" name="name" id="name" placeholder="Enter Full Name">
+        </div>
+        <div class="box">
+            <p>Email Id:</p>
+            <input type="email" name="email" id="email" placeholder="Enter Email-id">
+        </div>
+        <div class="box">
+            <p>Organisation:<sup>*</sup></p>
+            <input type="text" name="org" id="org" placeholder="Enter Organisation Name">
+        </div>
+        <div class="box">
+            <p>Date of Event</p>
+            <input type="date" name="date" id="date">
+            
+        </div>
+
+        <div class="box">
+            <p> Timing</p>
+            <input type="time" name="stime" id="stime">
+            <p>End Timing</p>
+            <input type="time" name="etime" id="etime">
+        </div>
+        
+        <div class="box">
+            <p>Event to be Organised:</p>
+         <select name="type" id="type">
+            <option value="">Type of Event</option>
+             <option value="sa">Social </option>
+             <option value="festival">Dance</option>
+             <option value="Club">Club Activity</option>
+             <option value="Film">Mimicry</option>
+         </select>
+        </div>
+
+       <br>
+       <div class="last">
+        <input type="Submit" value= "Submit" class="Submit">
+        <input type="Reset" value="Reset" class="Reset">
+       </div>
+
+        
+        
+        
+
+
+
+
+    </form>
+
+</body>
+
+</html>
